@@ -167,6 +167,40 @@ For 50 years, WWF has been protecting the future of nature. The world's leading 
     <td>$49</td>
   </tr>
 </table>
+<h1>The data element</h1>
 
+<p>The following example displays product names but also associates each name with a product number:</p>
+
+<ul>
+  <li><data value="21053">chicken</data></li>
+  <li><data value="21054">fish</data></li>
+  <li><data value="21055">egg</data></li>
+</ul>
+<h1>The datalist element</h1>
+
+<form action="/action_page.php" method="get">
+  <label for="browser">Choose your browser from the list:</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+<h1>The dl, dd, and dt elements</h1>
+
+<p>These three elements are used to create a description list:</p>
+
+<dl>
+  <dt>nagarajan</dt>
+  <dd>im complete the engineering.</dd>
+  <dt>jabestin</dt>
+  <dd>completed the diplamo</dd>
+</dl>
 </body>
 </html>
